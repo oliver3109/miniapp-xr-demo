@@ -1,0 +1,25 @@
+{
+  "keyframe": {
+    "cube": {
+      "0": {
+        "rotation.y": 0,
+        "material.u_baseColorFactor": [0.2, 0.6, 0.8, 1]
+      },
+      "50": {
+        "material.u_baseColorFactor": [0.2, 0.8, 0.6, 1]
+      },
+      "100": {
+        "rotation.y": 6.28,
+        "material.u_baseColorFactor": [0.2, 0.6, 0.8, 1]
+      }
+    }
+  },
+  "animation": {
+    "cube": {
+      "keyframe": "cube",
+      "duration": 4,
+      "ease": "ease-in-out",
+      "loop": -1
+    }
+  }
+}
